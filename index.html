@@ -1,36 +1,37 @@
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script> 
+  
+    
 <!-- Body with id to set up scroll spy SCROLLSPY NOT CURRENTLY WORKING -->
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  
-  
-  <!-- NAVBAR WITH SCROLL TO SECTIONS -->
-  <nav class="navbar navbar-fixed-top myNav">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#about">WebSiteLogo</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-        <li><a class="page-scroll" href="#skills">Skills</a></li>
-        <li><a class="page-scroll" href="#blog">Blog</a></li>
-        <li><a class="page-scroll" href="#adventures">Adventures</a></li>
-        <li><a class="page-scroll" href="#contact">Contact Me</a></li>
-      </ul>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="logo.png">
+      </a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#adventures">Adventures</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+  
   
   <!-- ABOUT ME TOP OF PAGE -->
  <section id="about" class="about-section">
@@ -202,6 +203,8 @@
     <div class="container">
        <div class="col-lg-12">
           <h2>Contact Me</h2>
+          <button type="button" class="btn btn-primary" id="button">Ride or Die</button>
+          <p class="quote" id="ranQuote">Random DMX Lyric Generator</p>
       </div>
         <div>
           <a href="https://twitter.com/M123L" class="twitter-follow-button" data-show-count="false">Follow @M123L</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -213,7 +216,11 @@
   
   </body>
   
+  <script src="javascript.js" type="text/javascript"></script>
   
+  
+  
+</html>
   
   
   
