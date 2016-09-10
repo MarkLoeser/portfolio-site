@@ -1,0 +1,68 @@
+.about-section {
+  background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1473283608/VeniceGondolaTrafficJam_dli5au.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.portfolio-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+.parallax {
+  background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1472589175/13719504_10153666659566975_6681463629265998766_o_qwj4mu.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.skill-section {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+.blog-section {
+  background-image: 
+  
+}
+
+.adventures-section {
+  height: 100%;
+  text-align: center;
+  background: green;
+}
+
+
+
+.myNav {
+  background: black;
+}
+
+body {
+  position: relative;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.skill-item {
+    margin-bottom: 25px;
+}
+
+.adventure-item {
+    margin-bottom: 25px;
+}
