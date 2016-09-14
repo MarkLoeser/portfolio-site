@@ -4,12 +4,24 @@ body {
 
 
 .about-section {
-  background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1473283608/VeniceGondolaTrafficJam_dli5au.jpg");
+  background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1473852994/DSC_3019_tgkz5m.jpg");
   height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+#about-me {
+  position: absolute;
+  top: 300px;
+  
+}
+
+#about-me p {
+  font-size: 32px;
+  padding-left: 5px;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .portfolio-section {
@@ -63,6 +75,7 @@ background-color: transparent;
 
 .past-main {
   font-size: 18px;
+  background-color: transparent;
 
 }
 
