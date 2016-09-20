@@ -25,7 +25,6 @@ body {
 }
 
 .portfolio-section {
-    height: 100%;
     text-align: center;
     background: #eee;
 }
@@ -33,6 +32,8 @@ body {
 .portfolio-section h2 {
   padding-top: 30px;
 }
+
+
 
 .parallax {
   background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1472589175/13719504_10153666659566975_6681463629265998766_o_qwj4mu.jpg");
@@ -44,26 +45,23 @@ body {
 }
 
 .skill-section {
-    height: 100%;
     text-align: center;
-    background: #fff;
+    background: white;
 }
 
-.contact-section {
-    height: 100%;
-    text-align: center;
-    background: #eee;
-}
+
 
 .blog-section {
-  background-image: 
-  
+  background-image: url("http://res.cloudinary.com/dpyptkefp/image/upload/v1474368204/MAKES_3_navzxp.png");
+  background-position: top-left;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 560px;
 }
 
 .adventures-section {
-  height: 100%;
   text-align: center;
-  background: green;
+  background: white;
 }
 
 /* Navbar Styling, including style switches when scrolled past about section */
@@ -97,4 +95,11 @@ background-color: transparent;
 
 .adventure-item {
     margin-bottom: 25px;
+}
+
+/* CONTACT ME SECTION */
+.contact-section {
+    height: 100%;
+    text-align: center;
+    background: #eee;
 }
