@@ -46,10 +46,11 @@ body {
 }
 
 
-
 .blog-text {
-  border: 5px solid white;
-  
+width: 400px;
+margin: 0 auto;
+border: 6px solid white;
+transform: translateY(50%);
 }
 
 .blog-text h1 {
@@ -62,6 +63,7 @@ body {
   color: white;
   font-size: 20px;
   text-align: center;
+  padding: 0px 30px 10px;
 }
 
 .skill-section {
@@ -79,20 +81,27 @@ body {
 
 /* Navbar Styling, including style switches when scrolled past about section */
 
+.navbar-header li.icon {display: none;}
+
 .navbar-past-main {
-background-color: transparent;
+background-color: (255,255,255,0.2)
 
 }
 
 .past-main {
-  font-size: 18px;
-  background-color: transparent;
+ background-color: (255,255,255,0.2)
 
 }
 
 .brand-past-main {
   display: none;
 }
+
+@media screen and (max-width:680px) {
+  .navbar-brand {display: none;}
+  .navbar-header li:not(:first-child) {display: none;}
+}
+
 
 /* End of Navbar Styles */
 
