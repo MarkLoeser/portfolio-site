@@ -107,9 +107,6 @@ background-color: (255,255,255,0.2)
 
 
 
-.portfolio-item {
-    margin-bottom: 25px;
-}
 
 .skill-item {
     margin-bottom: 25px;
@@ -125,3 +122,11 @@ background-color: (255,255,255,0.2)
     background: #eee;
 }
 
+
+.thumbnail{
+  display: inline-block;
+}
+
+.project {
+  padding-bottom: 2em;
+}

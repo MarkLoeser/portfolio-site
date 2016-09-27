@@ -24,9 +24,11 @@ $(window).on('scroll',function(){
 
 });
 
-
-
-$("#button").click(function(){
-      
-      $("#ranQuote").html("JQuery works");
-    });
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
