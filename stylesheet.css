@@ -10,19 +10,23 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #about-me {
   position: absolute;
   top: 300px;
-  
-}
-
-#about-me p {
   font-size: 32px;
   padding-left: 10px;
   background-color: rgba(255,255,255,0.2);
+  border-radius: 8px;
+
+  
 }
+
+
 
 .portfolio-section {
     text-align: center;
@@ -66,6 +70,7 @@ transform: translateY(50%);
   padding: 0px 30px 10px;
 }
 
+
 .skill-section {
     text-align: center;
     background: white;
@@ -81,25 +86,26 @@ transform: translateY(50%);
 
 /* Navbar Styling, including style switches when scrolled past about section */
 
-.navbar-header li.icon {display: none;}
 
-.navbar-past-main {
-background-color: (255,255,255,0.2)
-
+.icon-bar {
+  background-color: black;
 }
 
-.past-main {
- background-color: (255,255,255,0.2)
+.navbar-nav li a {
+  color: black;
+}
 
+.navbar {
+  background-color: rgba(255,255,255,1);
+  border-bottom: 1px solid black;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #D5D1D1;
 }
 
 .brand-past-main {
   display: none;
-}
-
-@media screen and (max-width:680px) {
-  .navbar-brand {display: none;}
-  .navbar-header li:not(:first-child) {display: none;}
 }
 
 
